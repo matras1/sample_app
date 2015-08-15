@@ -32,13 +32,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    autoprefixer-rails (5.2.1.1)
-      execjs
-      json
     bcrypt-ruby (3.1.2)
-    bootstrap-sass (3.3.5)
-      autoprefixer-rails (>= 5.0.0.1)
-      sass (>= 3.2.19)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     bootstrap-will_paginate (0.0.9)
       will_paginate
     builder (3.1.4)
@@ -73,7 +69,7 @@ GEM
       rails (>= 3.0.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    execjs (2.5.2)
+    execjs (2.6.0)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.2.0)
@@ -185,7 +181,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (= 3.1.2)
-  bootstrap-sass (= 3.3.5)
+  bootstrap-sass (= 2.3.2.0)
   bootstrap-will_paginate (= 0.0.9)
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
